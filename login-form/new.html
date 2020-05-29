@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			background-color: #5E91F8;
+			padding: 50px 100px;
+		}
+
+		.top{
+			text-align: center;
+		}
+		.top h5{
+			font-weight: 400;
+			font-size: 23px;
+			color: white;
+		}
+		.top h6{
+			color: white;
+			font-size: 18px;
+		}
+		.form-holder{
+			width: 80%;
+			margin: auto;
+		}
+		form{
+			line-height: 4.0;
+			width: 50%;
+			margin: auto;
+			background-color: white;
+			border-radius: 8px;
+			padding: 50px;
+			text-align: center;
+		}
+		form input{
+			padding: 15px;
+			border: 1px solid #E5E7EE;
+			border-radius: 5px;
+			width: 70%;
+			}
+		form button{
+			background-color: #5E91F8;
+			text-align: center;
+			padding: 15px;
+			border-radius: 5px;
+			width: 77%;
+			border: none;
+			color: white;
+			font-weight: bold; 
+		}
+		::placeholder{
+			color: #ccc;
+		}
+		.links{
+			display: flex;
+			width: 48%;
+			margin: auto;
+			text-align: center;
+			justify-content: space-between;
+			padding: 10px;
+		}
+		.links a{
+			color: #ccc;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+<section>
+	<div class="top">
+		<h6>
+			<i class="fa fa-envelope"></i>
+		</h6>
+		<h5>Welcome back!</h5>	
+	</div>
+	<div class="form-holder">	
+		<form>
+			<input type="email" name="email" placeholder="Email address"><br>
+			<input type="password" name="password" placeholder="Password"><br>
+			<button>Login</button>
+		</form>
+	</div>
+	<div class="links">
+		<span><a href="">Forgot your password</a></span>
+		<span><a href="">Don't have an account? Get Started</a></span>
+	</div>
+</section>
+</body>
+</html>
